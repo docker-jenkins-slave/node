@@ -2,11 +2,11 @@ FROM jenkinsslave/aws_cli_docker
 
 MAINTAINER adam v0.1
 
-#RUN apt-get update && \
-#    apt-get install -y \
-#        unzip \
-#        && \
-#    rm -rf /var/lib/apt/lists/*
+RUN apt-get update && \
+    apt-get install -y \
+        unzip bzip2 \
+        && \
+   rm -rf /var/lib/apt/lists/*
 
 RUN groupadd -r node && useradd -r -g node node
 

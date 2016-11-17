@@ -7,6 +7,7 @@ RUN apt-get update && \
         unzip bzip2 \
         python \
         python-setuptools \
+        build-essential \
         && \
    rm -rf /var/lib/apt/lists/*
 

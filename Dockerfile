@@ -43,6 +43,6 @@ RUN curl -SLO "https://nodejs.org/dist/v$NODE_VERSION/node-v$NODE_VERSION-linux-
 ##########################################
 # angular stuff
 
-RUN npm install -g angular-cli frisby jasmine-node serverless eslint plato npm node-gyp
+RUN npm install -g angular-cli frisby jasmine-node serverless eslint plato node-gyp
 
 

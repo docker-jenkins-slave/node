@@ -1,6 +1,6 @@
 FROM jenkinsslave/aws_cli_docker
 
-MAINTAINER adam v0.1
+MAINTAINER adam v0.2
 
 RUN apt-get update && \
     apt-get install -y \
